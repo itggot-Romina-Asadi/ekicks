@@ -1,10 +1,6 @@
 class App < Sinatra::Base
 	enable :sessions
 
-	get '/index' do
-		slim(:index)
-	end
-
 	get '/ekicks' do
 		slim(:ekicks)
 	end	

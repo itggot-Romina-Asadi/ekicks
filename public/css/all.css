@@ -1,11 +1,35 @@
-body {
-    background: rgb(196, 196, 241);
-}
-
 p {
-    color: red;
+ 
 }
 
-.start {
-    background url("./img/coolpic.png")
+.wrapper {
+    position: fixed;
+    height: 100vh;
+    width: 100vw;   
+    background: url("../img/coolpic.png") no-repeat fixed center;
+    text-align: center;
+}
+
+.welcome_text {
+     margin-top: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color:purple;
+    box-shadow: 2px 1px 1px;
+}
+
+.login_register {
+    position: absolute;
+    bottom: 50px;
+    right: 200px;
+    font-size: 30px;
+    
+    
+    
 }

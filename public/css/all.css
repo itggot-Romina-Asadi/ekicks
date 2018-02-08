@@ -5,3 +5,7 @@ body {
 p {
     color: red;
 }
+
+.start {
+    background url("./img/coolpic.png")
+}
